@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Pieces/Piece.tscn" type="PackedScene" id=1]
+
+[node name="Redstone" instance=ExtResource( 1 )]
+color = "Redstone"
+
+[node name="Sprite" parent="." index="0"]
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Selected" parent="." index="1"]
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Select" parent="." index="2"]
+scale = Vector2( 0.5, 0.5 )
